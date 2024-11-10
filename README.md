@@ -19,8 +19,9 @@ Stock Price Anomaly Detection Application (v1.Beta) Utilizing NVIDIA NIM Nemotro
 # 4. User will then upload PDF articles of user selected stock that are published ON and 1 day before and after the detected anomalies to give a full context to the LLM for better inferencing.
 # 5. Load PDF Documents, wait for sucessfully uploaded message. 
 # 6. Uploaded documents will appear in the table below showing number, file directory, title, and # of pages
-# 8. User will review the processed and plotted stock data, detected anomalies, peaks, valleys, and begin thinking of questioning to ask in the chatbox regarding the anomaly occurances
-# 4. Use the chatbox powered by NVIDIA NIM llama-3.1-nemotron-51b-instruct prompting questions on user uploaded articles and anomaly detected dates to inference why an anomaly occured
-# 5. Chatbox will perform RAG to obtain relevant information from user uploaded articles in the Qdrant Vector Database and include it in your prompt to make a better and contextual inference on why an anomaly occured
-# 9. Chatbox allows for user conversational queries related to detected stock price anomalies and user uploaded and loaded PDF articles to gain insights into the stock and anomalies detected.
-# 10. FUTURE: Train a model for a particular stock (or an INDEX/ETF/etc) on historical stock articles and stock price, detected anomalies, peaks, and valleys from stock price history, and deploy it for this specific application. Integration of paid API services for stock article ethical web-scraping for a real-time generalized application. 
+# 7. User will review the processed and plotted stock data, detected anomalies, peaks, valleys, and begin thinking of questioning to ask in the chatbox regarding the anomaly occurances
+# 8. Use the chatbox powered by NVIDIA NIM llama-3.1-nemotron-51b-instruct prompting questions on user uploaded articles and anomaly detected dates to inference why an anomaly occured
+# 9. Chatbox will perform RAG to obtain relevant information from user uploaded articles in the Qdrant Vector Database and include it in your prompt to make a better and contextual inference on why an anomaly occured
+# 10. Chatbox allows for user conversational queries related to detected stock price anomalies and user uploaded and loaded PDF articles to gain insights into the stock and anomalies detected.
+# 11. FUTURE: Train a model for a particular stock (or an INDEX/ETF/etc) on historical stock articles and stock price, detected anomalies, peaks, and valleys from stock price history, and deploy it for this specific application. 
+#             Integration of paid API services for stock article ethical web-scraping for a real-time generalized application. 
