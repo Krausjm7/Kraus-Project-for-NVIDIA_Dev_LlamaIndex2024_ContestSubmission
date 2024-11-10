@@ -14,6 +14,7 @@ The user can then prompt questions to the chatbox that integrates RAG powered by
 # System Engineering Architecture and Procedure
 
 Please ensure you see "Conda_List_Kraus_Project" to ensure these specific library packages and their version are installed in your clean environment
+A docker container must be created for the Qdrant Vector Database. Please change name within the code to your specified name.
 Try executing code and pip install other libraries as needed for all required imports
 
 Upon Execution of Code in the Gradio Interface:
