@@ -13,6 +13,9 @@ The user can then prompt questions to the chatbox that integrates RAG powered by
 
 # System Engineering Architecture and Procedure
 
+Please ensure you see "Conda_List_Kraus_Project" to ensure these specific library packages and their version are installed in your clean environment
+Try executing code and pip install other libraries as needed for all required imports
+
 Upon Execution of Code in the Gradio Interface:
 1. User inputs the stock symbol.
 2. Fetch stock price data (from Yahoo Finance for the selected stock over the last 3 months).
