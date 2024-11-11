@@ -11,14 +11,14 @@ The application will utilize an anomaly detection machine learning algorithm and
 The application will also generate an anomaly detection table where the user can study the selected stock anomaly date, close price, stock price change %, volume trading change %, and provide the stock performance % vs. S&P 500
 The user can then prompt questions to the chatbox that integrates RAG powered by the NVIDIA Nemotron to conversationally understand why an anomaly occured using article PDFs as a reference to help with inferencing.
 
-# System Engineering Architecture and Procedure
+## System Engineering Architecture and Procedure
 
 a. Review "Conda_List_Kraus_Project" and below is a pip install list for needed library packages and their version for your clean environment. \
 b. A docker container must be created for the Qdrant Vector Database. Please change name within the code to your specified name. \
 c. PDF Articles that I found online for the NVDA stock example are located in "NVDA Articles.zip" to test the application. \
 d. Try executing code and pip install other libraries as needed for all required imports. 
 
-# Core pip Install Requirements and Versions
+### Core pip Install Requirements and Versions
 
 pip install numpy==1.26.4 \
 pip install pdfplumber==0.11.4 \
@@ -55,7 +55,7 @@ Upon Execution of Code in the Gradio Interface:
 9. Chatbox will perform RAG to obtain relevant information from user uploaded articles in the Qdrant Vector Database and include it in your prompt to make a better and contextual inference on why an anomaly occured
 10. Chatbox allows for user conversational queries related to detected stock price anomalies and user uploaded and loaded PDF articles to gain insights into the stock and anomalies detected.
 
-# FUTURE: 
+## FUTURE: 
 
 Train a model for a particular stock (or an INDEX/ETF/etc) on historical stock articles and stock price, detected anomalies, peaks, and valleys from stock price history, and deploy it for this specific application. 
 
