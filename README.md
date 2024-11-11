@@ -13,9 +13,11 @@ The user can then prompt questions to the chatbox that integrates RAG powered by
 
 # System Engineering Architecture and Procedure
 
-Please ensure you see "Conda_List_Kraus_Project" to ensure these specific library packages and their version are installed in your clean environment
-A docker container must be created for the Qdrant Vector Database. Please change name within the code to your specified name.
-Try executing code and pip install other libraries as needed for all required imports
+a. Please ensure you see "Conda_List_Kraus_Project" to ensure these specific library packages and their version are installed in your clean environment
+b. A docker container must be created for the Qdrant Vector Database. Please change name within the code to your specified name.
+c. PDF Articles that I found online for the NVDA stock example are located in "NVDA Articles.zip" to test the application.
+d. Try executing code and pip install other libraries as needed for all required imports
+e. Video uploaded of me using the application "https://www.youtube.com/watch?v=qRXpffS8AxE"
 
 Upon Execution of Code in the Gradio Interface:
 1. User inputs the stock symbol.
