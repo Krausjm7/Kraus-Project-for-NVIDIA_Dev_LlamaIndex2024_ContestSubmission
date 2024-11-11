@@ -1,5 +1,5 @@
 # Stock Anomaly Detection Application (v1.Beta) - NVIDIA Developer and LlamaIndex Contest 2024 Submission - Updated 11.10.2024
-Stock Price Anomaly Detection Application (v1.Beta) Utilizing NVIDIA NIM Nemotron for RAG, NVIDIA NIM Mistral for Embedding, LlamaIndex, Local Network Qdrant Vector Database, and Gradio UI in Python
+Stock Price Anomaly Detection Application (v1.Beta) Utilizing NVIDIA NIM Nemotron (nvidia/llama-3.1-nemotron-51b-instruct) for RAG, NVIDIA NIM Mistral (nvidia/nv-embedqa-mistral-7b-v2) for Embedding, LlamaIndex, Local Network Qdrant Vector Database, and Gradio UI in Python
 
 My LinkedIn: https://www.linkedin.com/in/jamie-kraus-b34765106/
 
