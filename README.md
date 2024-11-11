@@ -13,10 +13,34 @@ The user can then prompt questions to the chatbox that integrates RAG powered by
 
 # System Engineering Architecture and Procedure
 
-a. Please ensure you see "Conda_List_Kraus_Project" to ensure these specific library packages and their version are installed in your clean environment
-b. A docker container must be created for the Qdrant Vector Database. Please change name within the code to your specified name.
-c. PDF Articles that I found online for the NVDA stock example are located in "NVDA Articles.zip" to test the application.
-d. Try executing code and pip install other libraries as needed for all required imports
+a. Please ensure you see "Conda_List_Kraus_Project" to ensure these specific library packages and their version are installed in your clean environment. \
+b. A docker container must be created for the Qdrant Vector Database. Please change name within the code to your specified name. \
+c. PDF Articles that I found online for the NVDA stock example are located in "NVDA Articles.zip" to test the application. \
+d. Try executing code and pip install other libraries as needed for all required imports. \
+
+# PIP Install Requirements and Versions
+
+pip install numpy==1.26.4 \
+pip install pdfplumber==0.11.4 \
+pip install gradio==4.44.1 \
+pip install pydantic==2.9.2 \
+pip install qdrant-client==1.12.1 \
+pip install requests==2.32.3 \
+pip install yfinance==0.2.34 \
+pip install scikit-learn==1.5.2 \
+pip install matplotlib==3.9.2 \
+pip install scipy==1.13.1 \
+pip install pandas==2.2.3 \
+pip install openai==1.54.3 \
+pip install llama-index-core==0.10.58 \
+pip install llama-index-embeddings-nvidia==0.1.4 \
+pip install llama-index-llms-nvidia==0.1.4 \
+pip install llama-index-llms-openai==0.1.31 \
+pip install llama-index-readers-file==0.1.30 \
+pip install torch==2.5.1 \
+pip install torchaudio==2.5.1 \
+pip install torchvision==0.20.1 
+
 e. Video uploaded of me using the application "https://www.youtube.com/watch?v=qRXpffS8AxE"
 
 Upon Execution of Code in the Gradio Interface:
