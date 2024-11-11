@@ -18,7 +18,7 @@ b. A docker container must be created for the Qdrant Vector Database. Please cha
 c. PDF Articles that I found online for the NVDA stock example are located in "NVDA Articles.zip" to test the application. \
 d. Try executing code and pip install other libraries as needed for all required imports. 
 
-# PIP Install Requirements and Versions
+# Core pip Install Requirements and Versions
 
 pip install numpy==1.26.4 \
 pip install pdfplumber==0.11.4 \
