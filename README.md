@@ -16,7 +16,7 @@ The user can then prompt questions to the chatbox that integrates RAG powered by
 a. Review "Conda_List_Kraus_Project" and below is a pip install list for needed library packages and their version for your clean environment. \
 b. A docker container must be created for the Qdrant Vector Database. Please change name within the code to your specified name. \
 c. PDF Articles that I found online for the NVDA stock example are located in "NVDA Articles.zip" to test the application. \
-d. Try executing code and pip install other libraries as needed for all required imports. \
+d. Try executing code and pip install other libraries as needed for all required imports. 
 
 # PIP Install Requirements and Versions
 
